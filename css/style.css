@@ -69,6 +69,22 @@
 
 /* Discography */
 
+/* .discography-container{
+  
+} */
+
+.discography-section{
+  width: 1128px;
+    margin: 0 auto;
+ 
+}
+
+.disco-main{
+  background-image: url("../images/discrography-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .discography-header{
     display: flex;
@@ -80,12 +96,30 @@
 .discography-details{
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
+    flex-wrap: wrap;
 }
 
 .hell-and-silence{
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.night-visions{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.smoke-mirrors{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flex_basis{
+  flex: 50%;
 }
 
 .devider-line{
