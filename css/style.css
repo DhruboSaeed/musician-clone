@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  flex-basis: 1180px;
+  margin: 0 auto;
+}
+
+.full-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  position: relative;
+}
+
+.nav-bar-section {
+  position: absolute;
+  width: 100%;
+}
+
+.display-flexC {
+  display: flex;
+  flex-direction: column;
+}
+
+.aligh-items {
+  align-items: center;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar-links {
+  padding: 15px;
+  width: 100%;
+}
+
+.nav-background {
+  background-color: #bbbbbb63;
+}
+
+.nav-bar-a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.nav-bar-a:hover {
+  color: black;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 6px;
+}
+
+.header img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Discography */
+
+
+.discography-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.discography-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.hell-and-silence{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.devider-line{
+    border-top: 1px solid black;
+}
