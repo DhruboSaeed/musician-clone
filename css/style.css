@@ -777,13 +777,52 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media (min-width: 300px) and (max-width: 399px) {
   .prev,
   .next,
   .text {
     font-size: 11px;
   }
+
+  .concert-tours-header{
+    padding: 20px;
+  }
+
+  .concert-tours-bottom{
+    bottom: 2%;
+    left: 5%;
+    width: 60%;
+  }
+
+  .container{
+    padding: 10px;
+  }
+
+  .letter-heading-section{
+    padding: 10px;
+  }
+
+  .events-right-side{
+    bottom: 2%;
+    left: 5%;
+    width: 70%;
+  }
+
+  .contact-container{
+    bottom: 2%;
+    left: 5%;
+  }
+  .input-form-section input{
+    background-color: transparent;
+  }
 }
+
+
+
+
+
+
+
 
 @media (min-width: 1200px) {
   .container {
@@ -792,7 +831,14 @@ img {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 700px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+
+
   .prev,
   .next,
   .text {
