@@ -779,13 +779,13 @@ img {
 /* On smaller screens, decrease text size */
 @media (min-width: 300px) and (max-width: 399px) {
   .prev,
-  .next,
-  .text {
+  .next{
     font-size: 11px;
   }
 
   .text{
     overflow: hidden;
+    font-size: 11px;
   }
 
   .concert-tours-header{
@@ -837,15 +837,7 @@ img {
 
 @media (min-width: 400px) and (max-width: 700px) {
   .prev,
-  .next,
-  .text {
-    font-size: 11px;
-  }
-
-
-  .prev,
-  .next,
-  .text {
+  .next{
     font-size: 11px;
   }
 
@@ -875,6 +867,7 @@ img {
   }
 
   .text{
+    font-size: 11px;
     overflow: hidden;
   }
 }
